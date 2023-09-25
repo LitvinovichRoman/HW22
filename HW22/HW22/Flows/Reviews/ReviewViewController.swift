@@ -7,8 +7,7 @@
 
 import UIKit
 
-class ReviewViewController: UIViewController, UITextViewDelegate {
-    
+class ReviewViewController: UIViewController, UITextViewDelegate, UIGestureRecognizerDelegate {
     var index: Int?
     
     @IBOutlet weak var textView: UITextView!
@@ -17,12 +16,10 @@ class ReviewViewController: UIViewController, UITextViewDelegate {
     @IBOutlet weak var saveButton: UIButton!
     @IBOutlet weak var reviewStack: UIStackView!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
     }
-    
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         updateUI(with: size)
@@ -52,17 +49,9 @@ class ReviewViewController: UIViewController, UITextViewDelegate {
         }
     }
     
-    @IBAction func gradeChange(_ sender: UISegmentedControl) {
-        let index = grade.selectedSegmentIndex
-        if let title = grade.titleForSegment(at: index) {
-            CardsData.shared.rating = title
-        } else {
-            return
-        }
-    }
-    
     @IBAction func saveButtonPressed(_ sender: UIButton) {
-        CardsData.shared.feedback = textView.text
+        let feedback = Feedback(text: textView.text, mark: Double(grade.selectedSegmentIndex + 1))
+        CardsData.shared.cards[index ?? 0].feedbacks.append(feedback)
         navigationController?.popToRootViewController(animated: true)
     }
    
@@ -70,20 +59,24 @@ class ReviewViewController: UIViewController, UITextViewDelegate {
         errorLbl.isHidden = true
         textView.delegate = self
         textView.backgroundColor = .systemGray6
-        textView.layer.cornerRadius = 15
-        textView.layer.masksToBounds = true
+        textView.cornersRound()
+        saveButton.cornersRoundInHeight()
+        swipeAction()
     }
+    
+    func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+            return true
+        }
+    func swipeAction() {
+        let swipeDown = UISwipeGestureRecognizer(target: self, action: #selector(self.hideKeyboardOnSwipeDown))
+                swipeDown.delegate = self
+        swipeDown.direction =  UISwipeGestureRecognizer.Direction.down
+                self.view.addGestureRecognizer(swipeDown)
+    }
+    
+    @objc func hideKeyboardOnSwipeDown() {
+            view.endEditing(true)
+        }
 }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 
 

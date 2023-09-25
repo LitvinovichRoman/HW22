@@ -8,13 +8,30 @@
 import UIKit
 
 struct Card {
-    
     let name: String
     let price: String
     let image: UIImage?
     
-    static var feedBacks: [Feedback] = []
+    var feedbacks: [Feedback] = []
     
-    var rating = ""
+    var ratingStarsString: String {
+        guard let rating = averageRating else {
+            return ""
+        }
+        
+        let star = "⭐️"
+        let numberOfStars = Int(rating.rounded(.up))
+        let ratingStars = Array(repeating: star, count: numberOfStars)
+        
+        return ratingStars.joined()
+    }
     
+    var averageRating: Double? {
+        if feedbacks.isEmpty {
+            return nil
+        } else {
+            let sum = feedbacks.reduce(0) { $0 + $1.mark }
+            return sum / Double(feedbacks.count)
+        }
+    }
 }

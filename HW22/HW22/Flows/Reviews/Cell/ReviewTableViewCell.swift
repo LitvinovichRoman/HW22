@@ -11,16 +11,13 @@ class ReviewTableViewCell: UITableViewCell {
     @IBOutlet var dateLbl: UILabel!
     @IBOutlet var feedbackLbl: UILabel!
     @IBOutlet var ratingLbl: UILabel!
-  
+
     override func awakeFromNib() {
         super.awakeFromNib()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-        ratingLbl.text = CardsData.shared.rating
-        dateLbl.text = Feedback.date.description
-        feedbackLbl.text = CardsData.shared.feedback
-        
     }
+    
 }
