@@ -9,19 +9,41 @@
 /* Begin PBXBuildFile section */
 		5A4EEB0D2ABEDA97006A31F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4EEB0C2ABEDA97006A31F0 /* AppDelegate.swift */; };
 		5A4EEB0F2ABEDA97006A31F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4EEB0E2ABEDA97006A31F0 /* SceneDelegate.swift */; };
-		5A4EEB142ABEDA97006A31F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4EEB122ABEDA97006A31F0 /* Main.storyboard */; };
-		5A4EEB162ABEDA99006A31F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4EEB152ABEDA99006A31F0 /* Assets.xcassets */; };
-		5A4EEB192ABEDA99006A31F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4EEB172ABEDA99006A31F0 /* LaunchScreen.storyboard */; };
+		5A5542122AC20941002793C1 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5542112AC20941002793C1 /* UIViewExt.swift */; };
+		5A5542142AC2260C002793C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A5542132AC2260C002793C1 /* Assets.xcassets */; };
+		5A7FE3582ABF455900F8ABCB /* CardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FE3502ABF455900F8ABCB /* CardTableViewController.swift */; };
+		5A7FE3592ABF455900F8ABCB /* ReviewsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FE3522ABF455900F8ABCB /* ReviewsTVC.swift */; };
+		5A7FE35A2ABF455900F8ABCB /* ReviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A7FE3542ABF455900F8ABCB /* ReviewTableViewCell.xib */; };
+		5A7FE35B2ABF455900F8ABCB /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FE3552ABF455900F8ABCB /* ReviewTableViewCell.swift */; };
+		5A7FE35C2ABF455900F8ABCB /* CardDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FE3572ABF455900F8ABCB /* CardDetailVC.swift */; };
+		5A7FE3602ABF45AF00F8ABCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7FE35E2ABF45AF00F8ABCB /* LaunchScreen.storyboard */; };
+		5A7FE3612ABF45AF00F8ABCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7FE35F2ABF45AF00F8ABCB /* Main.storyboard */; };
+		5A7FE3642ABF45D300F8ABCB /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FE3622ABF45D300F8ABCB /* Card.swift */; };
+		5A7FE3652ABF45D300F8ABCB /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FE3632ABF45D300F8ABCB /* Feedback.swift */; };
+		5A7FE3682ABF45E600F8ABCB /* CellManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FE3662ABF45E600F8ABCB /* CellManager.swift */; };
+		5A7FE3692ABF45E600F8ABCB /* CardsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FE3672ABF45E600F8ABCB /* CardsData.swift */; };
+		5A96055D2AC095060084ACAE /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A96055C2AC095060084ACAE /* ReviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5A4EEB092ABEDA97006A31F0 /* HW22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW22.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4EEB0C2ABEDA97006A31F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A4EEB0E2ABEDA97006A31F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A4EEB132ABEDA97006A31F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5A4EEB152ABEDA99006A31F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5A4EEB182ABEDA99006A31F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A4EEB1A2ABEDA99006A31F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A5542112AC20941002793C1 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		5A5542132AC2260C002793C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A7FE3502ABF455900F8ABCB /* CardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTableViewController.swift; sourceTree = "<group>"; };
+		5A7FE3522ABF455900F8ABCB /* ReviewsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsTVC.swift; sourceTree = "<group>"; };
+		5A7FE3542ABF455900F8ABCB /* ReviewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReviewTableViewCell.xib; sourceTree = "<group>"; };
+		5A7FE3552ABF455900F8ABCB /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
+		5A7FE3572ABF455900F8ABCB /* CardDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailVC.swift; sourceTree = "<group>"; };
+		5A7FE35E2ABF45AF00F8ABCB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A7FE35F2ABF45AF00F8ABCB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5A7FE3622ABF45D300F8ABCB /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		5A7FE3632ABF45D300F8ABCB /* Feedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		5A7FE3662ABF45E600F8ABCB /* CellManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellManager.swift; sourceTree = "<group>"; };
+		5A7FE3672ABF45E600F8ABCB /* CardsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsData.swift; sourceTree = "<group>"; };
+		5A96055C2AC095060084ACAE /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReviewViewController.swift; path = HW22/Flows/Reviews/ReviewViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				5A4EEB202ABEDACB006A31F0 /* Application */,
+				5A55420E2AC1F7F8002793C1 /* Extension */,
+				5A7FE35D2ABF458C00F8ABCB /* Views */,
 				5A4EEB212ABEDAEA006A31F0 /* Flows */,
 				5A4EEB222ABEDAFB006A31F0 /* Models */,
 				5A4EEB232ABEDB81006A31F0 /* Services */,
@@ -65,9 +89,9 @@
 		5A4EEB202ABEDACB006A31F0 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				5A5542132AC2260C002793C1 /* Assets.xcassets */,
 				5A4EEB0C2ABEDA97006A31F0 /* AppDelegate.swift */,
 				5A4EEB0E2ABEDA97006A31F0 /* SceneDelegate.swift */,
-				5A4EEB152ABEDA99006A31F0 /* Assets.xcassets */,
 				5A4EEB1A2ABEDA99006A31F0 /* Info.plist */,
 			);
 			path = Application;
@@ -76,6 +100,9 @@
 		5A4EEB212ABEDAEA006A31F0 /* Flows */ = {
 			isa = PBXGroup;
 			children = (
+				5A7FE3562ABF455900F8ABCB /* Detail */,
+				5A7FE34F2ABF455900F8ABCB /* Cards */,
+				5A7FE3512ABF455900F8ABCB /* Reviews */,
 			);
 			path = Flows;
 			sourceTree = "<group>";
@@ -83,8 +110,8 @@
 		5A4EEB222ABEDAFB006A31F0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5A4EEB122ABEDA97006A31F0 /* Main.storyboard */,
-				5A4EEB172ABEDA99006A31F0 /* LaunchScreen.storyboard */,
+				5A7FE3632ABF45D300F8ABCB /* Feedback.swift */,
+				5A7FE3622ABF45D300F8ABCB /* Card.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -92,8 +119,62 @@
 		5A4EEB232ABEDB81006A31F0 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				5A7FE3662ABF45E600F8ABCB /* CellManager.swift */,
+				5A7FE3672ABF45E600F8ABCB /* CardsData.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		5A55420E2AC1F7F8002793C1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5A5542112AC20941002793C1 /* UIViewExt.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5A7FE34F2ABF455900F8ABCB /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				5A7FE3502ABF455900F8ABCB /* CardTableViewController.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		5A7FE3512ABF455900F8ABCB /* Reviews */ = {
+			isa = PBXGroup;
+			children = (
+				5A7FE3522ABF455900F8ABCB /* ReviewsTVC.swift */,
+				5A96055C2AC095060084ACAE /* ReviewViewController.swift */,
+				5A7FE3532ABF455900F8ABCB /* Cell */,
+			);
+			path = Reviews;
+			sourceTree = "<group>";
+		};
+		5A7FE3532ABF455900F8ABCB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5A7FE3542ABF455900F8ABCB /* ReviewTableViewCell.xib */,
+				5A7FE3552ABF455900F8ABCB /* ReviewTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5A7FE3562ABF455900F8ABCB /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				5A7FE3572ABF455900F8ABCB /* CardDetailVC.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		5A7FE35D2ABF458C00F8ABCB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A7FE35E2ABF45AF00F8ABCB /* LaunchScreen.storyboard */,
+				5A7FE35F2ABF45AF00F8ABCB /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +205,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					5A4EEB082ABEDA97006A31F0 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -154,9 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A4EEB192ABEDA99006A31F0 /* LaunchScreen.storyboard in Resources */,
-				5A4EEB162ABEDA99006A31F0 /* Assets.xcassets in Resources */,
-				5A4EEB142ABEDA97006A31F0 /* Main.storyboard in Resources */,
+				5A7FE35A2ABF455900F8ABCB /* ReviewTableViewCell.xib in Resources */,
+				5A7FE3612ABF45AF00F8ABCB /* Main.storyboard in Resources */,
+				5A5542142AC2260C002793C1 /* Assets.xcassets in Resources */,
+				5A7FE3602ABF45AF00F8ABCB /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,37 +249,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A96055D2AC095060084ACAE /* ReviewViewController.swift in Sources */,
+				5A7FE3692ABF45E600F8ABCB /* CardsData.swift in Sources */,
 				5A4EEB0D2ABEDA97006A31F0 /* AppDelegate.swift in Sources */,
+				5A5542122AC20941002793C1 /* UIViewExt.swift in Sources */,
+				5A7FE3682ABF45E600F8ABCB /* CellManager.swift in Sources */,
+				5A7FE3592ABF455900F8ABCB /* ReviewsTVC.swift in Sources */,
+				5A7FE3642ABF45D300F8ABCB /* Card.swift in Sources */,
+				5A7FE35C2ABF455900F8ABCB /* CardDetailVC.swift in Sources */,
+				5A7FE35B2ABF455900F8ABCB /* ReviewTableViewCell.swift in Sources */,
+				5A7FE3582ABF455900F8ABCB /* CardTableViewController.swift in Sources */,
+				5A7FE3652ABF45D300F8ABCB /* Feedback.swift in Sources */,
 				5A4EEB0F2ABEDA97006A31F0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		5A4EEB122ABEDA97006A31F0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A4EEB132ABEDA97006A31F0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5A4EEB172ABEDA99006A31F0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A4EEB182ABEDA99006A31F0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		5A4EEB1B2ABEDA99006A31F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -230,6 +304,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -258,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -290,6 +366,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -318,6 +395,7 @@
 				DEVELOPMENT_TEAM = W2HCKKQTYD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HW22/Application/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Baseball Cards";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -346,6 +424,7 @@
 				DEVELOPMENT_TEAM = W2HCKKQTYD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HW22/Application/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Baseball Cards";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
